@@ -1,0 +1,32 @@
+{
+  "name": "789",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "build:css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "autoprefixer": "^10.4.22",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "postcss": "^8.5.6",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}
